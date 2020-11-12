@@ -1,2 +1,2 @@
-# Templates
-Templates for different plugins
+# Template
+Template for noobsters.

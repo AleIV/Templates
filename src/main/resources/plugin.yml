@@ -1,0 +1,5 @@
+name: NoobstersCore
+version: ${version}
+main: net.noobsters.core.paper.Core
+api-version: 1.16
+api: ["1.16"]
