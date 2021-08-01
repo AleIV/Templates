@@ -1,2 +1,2 @@
 # Template
-Template for noobsters.
+Super template for super plugins.
