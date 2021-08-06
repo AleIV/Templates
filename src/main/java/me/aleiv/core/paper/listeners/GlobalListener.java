@@ -1,11 +1,11 @@
-package net.aleiv.core.paper.listeners;
+package me.aleiv.core.paper.listeners;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import net.aleiv.core.paper.Core;
-import net.aleiv.core.paper.events.GameTickEvent;
+import me.aleiv.core.paper.Core;
+import me.aleiv.core.paper.events.GameTickEvent;
 
 public class GlobalListener implements Listener{
     

@@ -1,4 +1,4 @@
-package net.aleiv.core.paper.commands;
+package me.aleiv.core.paper.commands;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
@@ -9,7 +9,7 @@ import co.aikar.commands.annotation.CommandAlias;
 import co.aikar.commands.annotation.CommandPermission;
 import co.aikar.commands.annotation.Subcommand;
 import lombok.NonNull;
-import net.aleiv.core.paper.Core;
+import me.aleiv.core.paper.Core;
 import net.md_5.bungee.api.ChatColor;
 
 @CommandAlias("global")

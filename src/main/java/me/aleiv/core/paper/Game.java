@@ -1,9 +1,9 @@
-package net.aleiv.core.paper;
+package me.aleiv.core.paper;
 
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import net.aleiv.core.paper.events.GameTickEvent;
+import me.aleiv.core.paper.events.GameTickEvent;
 
 public class Game extends BukkitRunnable {
     Core instance;

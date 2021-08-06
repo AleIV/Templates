@@ -1,4 +1,4 @@
-package net.aleiv.core.paper;
+package me.aleiv.core.paper;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -9,9 +9,9 @@ import co.aikar.taskchain.TaskChain;
 import co.aikar.taskchain.TaskChainFactory;
 import lombok.Getter;
 import lombok.Setter;
-import net.aleiv.core.paper.commands.GlobalCMD;
-import net.aleiv.core.paper.listeners.GlobalListener;
-import net.aleiv.core.paper.utilities.fastInv.FastInvManager;
+import me.aleiv.core.paper.commands.GlobalCMD;
+import me.aleiv.core.paper.listeners.GlobalListener;
+import me.aleiv.core.paper.utilities.fastInv.FastInvManager;
 
 public class Core extends JavaPlugin {
 

@@ -1,5 +1,5 @@
-name: NoobstersCore
+name: CoreTemplate
 version: ${version}
-main: net.noobsters.core.paper.Core
+main: me.aleiv.core.paper.Core
 api-version: 1.16
 api: ["1.16"]

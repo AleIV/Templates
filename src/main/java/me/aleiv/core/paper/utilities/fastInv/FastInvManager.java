@@ -1,4 +1,4 @@
-package net.aleiv.core.paper.utilities.fastInv;
+package me.aleiv.core.paper.utilities.fastInv;
 
 /*
  * This file is part of FastInv, licensed under the MIT License.
