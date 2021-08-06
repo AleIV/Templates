@@ -40,8 +40,7 @@ dependencies {
     compile 'co.aikar:acf-paper:0.5.0-SNAPSHOT'
     //TASKS CHAINS
     compile 'co.aikar:taskchain-bukkit:3.7.2'
-    //Scoreboard, maybe use helper by lucko?
-    compile 'fr.mrmicky:FastInv:3.0.2'
+
 }
 
 processResources {
@@ -56,7 +55,7 @@ shadowJar {
     relocate 'co.aikar.locales', 'shadded.acf.locales'
     relocate 'acf-minecraft_', 'shadded.acf.properties.acf-minecraft_'
     relocate 'acf-core_', 'shadded.acf.properties.acf-core_'
-    relocate 'fr.mrmicky', 'shadded.gui'
+
     
 }
 
