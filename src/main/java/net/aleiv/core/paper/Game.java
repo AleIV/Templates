@@ -11,8 +11,6 @@ public class Game extends BukkitRunnable {
     long gameTime = 0;
     long startTime = 0;
 
-
-
     public Game(Core instance) {
         this.instance = instance;
         this.startTime = System.currentTimeMillis();
