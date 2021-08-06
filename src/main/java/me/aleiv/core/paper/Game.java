@@ -3,8 +3,12 @@ package me.aleiv.core.paper;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitRunnable;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import me.aleiv.core.paper.events.GameTickEvent;
 
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class Game extends BukkitRunnable {
     Core instance;
 
