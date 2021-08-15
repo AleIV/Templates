@@ -11,7 +11,6 @@ import lombok.Getter;
 import lombok.Setter;
 import me.aleiv.core.paper.commands.GlobalCMD;
 import me.aleiv.core.paper.listeners.GlobalListener;
-import me.aleiv.core.paper.utilities.fastInv.FastInvManager;
 
 public class Core extends JavaPlugin {
 
@@ -28,7 +27,6 @@ public class Core extends JavaPlugin {
         game.runTaskTimerAsynchronously(this, 0L, 20L);
 
         taskChainFactory = BukkitTaskChainFactory.create(this);
-        FastInvManager.register(this);
 
         //LISTENERS
 
