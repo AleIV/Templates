@@ -1,4 +1,4 @@
-package me.aleiv.core.paper.utilities.scoreboard;
+package me.aleiv.core.paper.utilities;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
