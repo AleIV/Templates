@@ -8,6 +8,7 @@ import kr.entree.spigradle.annotations.SpigotPlugin;
 import lombok.Getter;
 import me.aleiv.core.paper.commands.GlobalCMD;
 import me.aleiv.core.paper.listeners.GlobalListener;
+import net.kyori.adventure.text.minimessage.MiniMessage;
 import us.jcedeno.libs.rapidinv.RapidInvManager;
 
 @SpigotPlugin
@@ -16,6 +17,7 @@ public class Core extends JavaPlugin {
     private static @Getter Core instance;
     private @Getter Game game;
     private @Getter PaperCommandManager commandManager;
+    private @Getter static MiniMessage miniMessage = MiniMessage.get();
 
     @Override
     public void onEnable() {
