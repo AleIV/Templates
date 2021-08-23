@@ -1,2 +1,2 @@
-# Template 1.16
+# Template
 Super template for super plugins.
