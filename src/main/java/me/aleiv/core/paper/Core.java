@@ -23,6 +23,10 @@ public class Core extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
+        RapidInvManager.register(this);
+        BukkitTCT.registerPlugin(this);
+        NegativeSpaces.registerCodes();
+
         game = new Game(this);
         game.runTaskTimerAsynchronously(this, 0L, 20L);
 
@@ -31,7 +35,6 @@ public class Core extends JavaPlugin {
         //LISTENERS
 
         Bukkit.getPluginManager().registerEvents(new GlobalListener(this), this);
-
 
         //COMMANDS
         
