@@ -21,7 +21,7 @@ compileJava{
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(16)
+        languageVersion = JavaLanguageVersion.of(17)
     }
 }
 javadoc {
@@ -40,8 +40,8 @@ repositories {
 
 
 dependencies {
-    //Paper
-    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+    //SPIGOT 
+    compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
     //Lombok
     // Use Protocol Lib
     compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.7.0";

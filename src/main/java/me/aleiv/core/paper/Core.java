@@ -8,6 +8,8 @@ import kr.entree.spigradle.annotations.SpigotPlugin;
 import lombok.Getter;
 import me.aleiv.core.paper.commands.GlobalCMD;
 import me.aleiv.core.paper.listeners.GlobalListener;
+import me.aleiv.core.paper.utilities.NegativeSpaces;
+import me.aleiv.core.paper.utilities.TCT.BukkitTCT;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import us.jcedeno.libs.rapidinv.RapidInvManager;
 
@@ -29,8 +31,6 @@ public class Core extends JavaPlugin {
 
         game = new Game(this);
         game.runTaskTimerAsynchronously(this, 0L, 20L);
-
-        RapidInvManager.register(this);
 
         //LISTENERS
 
