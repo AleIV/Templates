@@ -10,8 +10,6 @@ import me.aleiv.core.paper.commands.GlobalCMD;
 import me.aleiv.core.paper.listeners.GlobalListener;
 import me.aleiv.core.paper.utilities.NegativeSpaces;
 import me.aleiv.core.paper.utilities.TCT.BukkitTCT;
-import net.kyori.adventure.text.minimessage.MiniMessage;
-import us.jcedeno.libs.rapidinv.RapidInvManager;
 
 @SpigotPlugin
 public class Core extends JavaPlugin {
@@ -19,13 +17,11 @@ public class Core extends JavaPlugin {
     private static @Getter Core instance;
     private @Getter Game game;
     private @Getter PaperCommandManager commandManager;
-    private @Getter static MiniMessage miniMessage = MiniMessage.get();
 
     @Override
     public void onEnable() {
         instance = this;
 
-        RapidInvManager.register(this);
         BukkitTCT.registerPlugin(this);
         NegativeSpaces.registerCodes();
 

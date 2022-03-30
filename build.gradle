@@ -43,25 +43,18 @@ dependencies {
     //SPIGOT 
     compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
     //Lombok
-    // Use Protocol Lib
-    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.7.0";
-    // MiniMessage
-    implementation 'net.kyori:adventure-text-minimessage:4.1.0-SNAPSHOT'
-
 	compileOnly 'org.projectlombok:lombok:1.18.12'
 	annotationProcessor 'org.projectlombok:lombok:1.18.12'
 	testCompileOnly 'org.projectlombok:lombok:1.18.12'
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
     //ACF
     implementation 'co.aikar:acf-paper:0.5.0-SNAPSHOT'
-    //GUIs
-    implementation 'com.github.noobstersmc:RapidInv:v0.0.1'
 
 }
 
 spigot {
     authors 'aleiv'
-    apiVersion '1.16'
+    apiVersion '1.18'
     version '0.1'
     name 'CoreTemplate'
     load STARTUP
@@ -73,7 +66,6 @@ shadowJar {
     relocate 'co.aikar.locales', 'shadded.acf.locales'
     relocate 'acf-minecraft_', 'shadded.acf.properties.acf-minecraft_'
     relocate 'acf-core_', 'shadded.acf.properties.acf-core_'
-    relocate 'us.jcedeno.libs.rapidinv', 'com.yourpackage.rapidinv'
     
 }
 
